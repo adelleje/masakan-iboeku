@@ -1,0 +1,84 @@
+.btn-primary {
+    background: orange;
+    border: 1 orange;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.btn-primary:hover {
+    /* background: rgb(136, 133, 129);
+    border: 0;  */
+    background: none;
+    border: 1px solid orange;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: orange;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #BCD0E5;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+
+}
+.btn-secondary:hover {
+    background: orange;
+    border: 1px solid orange;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    /* color: #173A56; */
+
+}
+
+.herodwp h1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #2F281E;
+    
+}
+
+.card-title h2 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #2F281E;
+    
+}
+
+.herodwp p {
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #2F281E;
+}
+
+.text-justify p {
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #2F281E;
+}
+
+.navbar-nav .nav-link {
+    color: #31291d;
+}
+
+@media only screen and (max-width: 768px) { 
+    .btn-primary, .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+ }
+
+
+.bi::before {
+    display: inline-block;
+    content: "";
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
